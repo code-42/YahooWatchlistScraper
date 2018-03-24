@@ -1,0 +1,295 @@
+body{
+    background-color: #e3deee;
+    padding-top: 65px;
+    text-align: center;
+}
+
+article{
+    text-align: center;
+}
+
+img{
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+
+#submit{
+  text-align: center;
+}
+
+/* #email_form{
+  margin: 0 auto;
+  padding-left: 40px;
+  text-align: left;
+
+} */
+
+#sayhi{
+  background-color: #E2E2E2;
+}
+
+.whatwedo{
+  padding:42px;
+}
+
+.my-container {
+    position: relative;
+    overflow: hidden;
+    opacity:1;
+}
+.my-container:before {
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    opacity: 0.2;
+}
+.my-content {
+    display: block;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+.my-article {
+    content: ' ';
+    display: inline;
+    position: relative;
+    text-align: justify;
+    padding: 10px 10px 10px 10px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+h1{
+    /*padding: 100px 0 -100px 0;*/
+    text-align: center;
+    z-index: 2;
+    position: relative;
+} 
+
+article {
+  padding: 10px 10px 100px 10px;
+}
+
+#Euclid_flowchart{
+  position:relative;
+  width: 80%;
+  height:auto;
+}
+
+.video {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 5px;
+	height: auto;
+	width:100%;
+}
+.videoWrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	border:0;
+}
+
+#video{
+  text-align: left;
+  padding: 0 0 40px 0;
+}
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+        width: 100%;
+    }
+}
+
+.hidden{
+  position:absolute;
+  left:-10000px;
+  top:auto;
+  width:1px;
+  height:1px;
+  overflow:hidden;
+}
+
+#page-wrapper {
+  position: relative;
+}
+
+li {
+  list-style: none;
+}
+
+
+/** global classes styling **/
+
+.container {
+  display: block;
+  max-width: 1000px;
+  width: 100%;
+  /* margin: auto auto; */
+  margin-top: 100px;!important
+}
+
+/* .btn {
+  padding: 0 20px;
+  height: 40px;
+  font-size: 1em;
+  font-weight: 900;
+  text-transform: uppercase;
+  border: 3px black solid;
+  border-radius: 2px;
+  background: transparent;
+  cursor: pointer;
+  margin-bottom: 10px;
+} */
+
+.grid {
+  display: flex;
+}
+
+.reversed {
+    display: inline-block;
+    font-size: 100%;
+    font-weight: bold;
+    color:#0000ff;
+    -webkit-transform:rotateY(180deg);
+    -moz-transform:rotateY(180deg);
+    -o-transform:rotateY(180deg);
+    -ms-transform:rotateY(180deg);
+    transform:rotateY(180deg);
+}
+
+footer{
+  padding-top: 20px;
+  text-align: center;
+  display:block;
+}
+
+#pricing {
+  text-align: center;
+}
+
+#basic, #watch, #help {
+  border: 2px solid black;
+  text-align: center;
+  margin: 100px 10px 10px 10px;
+  background-color:#ffffff;
+} 
+
+.level {
+  background-color: #ff9900;
+  padding: 15px 0;
+  text-transform: uppercase;
+  font-weight: bolder;
+  font-size: 20px;
+  text-align: center;
+}
+
+/* .btn{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.1em;
+  margin: 10px 10px 10px 10px;
+  padding: 0px 8px 0px 8px;
+  color: black;
+  text-decoration: none;
+
+  border: 2px solid;
+  border-color: #ff9900;
+  border-radius: 20px;
+} */
+
+h2 {
+  margin-top: 15px;
+}
+  
+ul {
+    margin: auto;
+    text-align: center;
+}
+li { 
+  margin: auto;
+  padding: 5px; 
+  text-align: center;
+}
+  
+  
+  @media (max-width: 800px) {
+    /*flex-direction: column;*/
+    #basic { max-width: 300px; width: 100%; margin: 0 auto; margin-bottom: 10px; }
+    #watch { max-width: 300px; width: 100%; margin: 0 auto; margin-bottom: 10px; }
+    #help { max-width: 300px; width: 100%; margin: 0 auto; margin-bottom: 10px; }
+  }
+
+
+@media (max-width: 500px) {
+  h1 {
+    font-size: 36px;
+    padding: 5px;
+    text-align: center;
+    z-index: 2;
+    position: relative;
+  }
+  li {
+    padding: 5px;
+    display: block;
+  }
+}
+    
+.bitcoin_logo{
+  width: 100px;
+  height: auto;
+  padding-bottom: 4px;
+}
+
+input{
+  width: 100%;
+}
+
+#send, #reset{
+  width: 100px;
+}
+
+.main_content{
+  margin-left: 10%;
+  width: 90%;
+}
+
+#comments{
+  width: 100%;
+}
+
+.labels{
+  text-align: left;
+  margin-top: 10px;
+}
+
+.big_logo{
+  font: 72px arial, sans-serif;
+  font-weight: bold;
+}
+
+.my-logo{
+  text-align: center;
+}
+
+#yahoo_logo {
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /*border: 1px solid #777;*/
+}
+my-form {
+	margin-left: 300px;!important
+}
+
