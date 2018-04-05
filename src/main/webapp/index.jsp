@@ -15,7 +15,7 @@
 				<article class="my-article">
 					<p>
 					This app is my CareerDevs web scraper assignment for demonstrating basic principles of web scraping.  Using a made up Yahoo Finance
-					portfolio of 10 stocks, I employ Selenium Web Driver adn various Java and JSP technologies and libraries to scrape data from Yahoo Finance.
+					portfolio of 10 stocks, I employ Selenium Web Driver and various Java and JSP technologies and libraries to scrape data from Yahoo Finance.
 					I try to implement an adaptation of Observer and State Design Patterns, adapted from the online pdf 
 					Design Patterns - Elements of Reusable Object-oriented Software, by Gang of Four, 1994.
 					</p>

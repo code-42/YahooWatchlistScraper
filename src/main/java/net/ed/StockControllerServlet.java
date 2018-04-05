@@ -52,35 +52,5 @@ public class StockControllerServlet extends HttpServlet {
 		// TODO Auto-generated method stub
 		doGet(request, response);
 	}
-
-	public static void launchBrowser(Visitor visitor) {
-		
-	// add support for chrome driver
-	String keyC = "webdriver.chrome.driver";
-	String valueC = "/Users/melocal/Java_Projects/GAEProjects/YahooWatchlistScraper/src/main/webapp/WEB-INF/lib/chromedriver";
-//	System.setProperty(keyC, valueC);
-
-	// add support for firefox driver
-	String keyF = "webdriver.gecko.driver";
-	String valueF = "/Users/melocal/Java_Projects/GAEProjects/YahooWatchlistScraper/src/main/webapp/WEB-INF/lib/geckodriver";
-	System.setProperty(keyF, valueF);
-	
-//	driver = new ChromeDriver();
-//	driver = new FirefoxDriver();
-//	driver.manage().window().maximize(); // maximize chrome browser
-//		driver.manage().deleteAllCookies(); // exactly what it says
-	
-	// dynamic wait
-	driver.manage().timeouts().pageLoadTimeout(400, TimeUnit.SECONDS);
-	driver.manage().timeouts().implicitlyWait(100, TimeUnit.SECONDS);
-	
-	System.out.println("77. Login " + visitor.getUsername());
-	
-	String URL = "https://login.yahoo.com";
-	driver.navigate().to(URL);
-	driver.navigate().back();
-	
-	driver.quit();
-	}
 	
 }
