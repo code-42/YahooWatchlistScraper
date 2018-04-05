@@ -33,7 +33,7 @@
             		<a href="login.jsp" class="navLinks">Login</a>
             </div>
             <div class="nav4">
-                <a href="aboutMe.jsp" class="navLinks">About Me</a>
+                <a href="aboutMe.jsp" class="navLinks">About&nbsp;Me</a>
             </div>
             <div class="nav5">
             </div>
