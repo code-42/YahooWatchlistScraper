@@ -7,6 +7,8 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+import java.util.Date;
+
 @WebServlet(
     name = "HelloAppEngine",
     urlPatterns = {"/hello"}
@@ -20,7 +22,9 @@ public class HelloAppEngine extends HttpServlet {
     response.setContentType("text/plain");
     response.setCharacterEncoding("UTF-8");
 
-    response.getWriter().print("Hello App Engine!\r\n");
+    Date theDate = new Date();
+    response.getWriter().print("Hello App Engine! Today is " + theDate + "\r\n");
+    
 
   }
 }

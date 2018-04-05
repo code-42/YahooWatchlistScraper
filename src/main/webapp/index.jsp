@@ -10,7 +10,7 @@
             <div class="item2">
             </div>
             <div class="item3">
-				<h1>Yahoo Finance Scraper</h1>
+				<h1>Yahoo Watchlist Scraper</h1>
 			
 				<article class="my-article">
 					<p>
@@ -29,7 +29,7 @@
 			<div class="item4">
 				<form action="StockControllerServlet" method="POST">
 					<input type="hidden" name="command" value="LAUNCHER" />
-			        <input type="submit" value="Launch the Yahoo Finance Scraper App" class="launcher" />
+			        <input type="submit" value="Launch Yahoo Watchlist Scraper App" class="launcher" />
 			    </form>
             </div>
             <div class="item5">

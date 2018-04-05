@@ -14,7 +14,7 @@
 			    <!-- <div class="loginForm"> -->
 			        <form class="myForm" id="loginForm" action="StockControllerServlet" method="POST">
 			
-			            <div class="form_item1">Yahoo Finance Scraper</div>
+			            <div class="form_item1">Yahoo Watchlist Scraper</div>
 			            <div class="form_item2">Please login to access your portfolio.</div>
 			
 			            <input type="hidden" name="command" value="LOGIN" />
