@@ -21,7 +21,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 public class StockControllerServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 	
-	public static WebDriver driver;
+//	public static WebDriver driver;
 
 	/**
 	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
@@ -42,7 +42,7 @@ public class StockControllerServlet extends HttpServlet {
 		visitor.setUsername(username);
 		visitor.setPassword(password);
 		
-		YahooLogin.launchBrowser(visitor);
+		YahooLogin yahooLogin = new YahooLogin(visitor);
 	}
 
 	/**
